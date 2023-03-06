@@ -1,6 +1,7 @@
 {
   "name": "onlineidentity/channable",
   "description": "Channable API connector",
+  "type": "library",
   "keywords": ["api","channable","connector"],
   "license": "MIT",
   "authors": [
