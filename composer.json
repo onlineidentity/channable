@@ -1,0 +1,26 @@
+{
+  "name": "onlineidentity/channable",
+  "description": "Channable API connector",
+  "keywords": ["api","channable","connector"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bryan Schreuder",
+      "email": "bryan@onlineidentity.nl"
+    },
+    {
+      "name": "Joeri Aben",
+      "email": "joeri@onlineidentity.nl"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "guzzlehttp/guzzle": "^7.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Channable\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
