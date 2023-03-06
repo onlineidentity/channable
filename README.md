@@ -10,13 +10,13 @@ To use the connector create a channable object in your project and add the requi
 
 ````php
 
-$config = new \OnlineIdentity\ChannableConfig(
+$config = new \OnlineIdentity\Channable\ChannableConfig(
     api_token: '{API_TOKEN}',
     company_id: {COMPANY_ID},
     project_id: {PROJECT_ID}
 );
 
-$channable = new \Onlineidentity\Channable($config)
+$channable = new \Onlineidentity\Channable\Channable($config)
 
 
 //Examples
