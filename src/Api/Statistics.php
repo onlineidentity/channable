@@ -1,6 +1,6 @@
 <?php
 
-namespace Channable\Api;
+namespace OnlineIdentity\Channable\Api;
 
 class Statistics extends Base
 {

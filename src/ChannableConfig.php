@@ -1,6 +1,6 @@
 <?php
 
-namespace Channable;
+namespace OnlineIdentity\Channable;
 
 class ChannableConfig
 {

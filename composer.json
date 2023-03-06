@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Channable\\": "src/"
+      "OnlineIdentity\\Channable\\": "src/"
     }
   },
   "minimum-stability": "dev"

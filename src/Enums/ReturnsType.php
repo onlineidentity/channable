@@ -1,6 +1,6 @@
 <?php
 
-namespace Channable\Enums;
+namespace OnlineIdentity\Channable\Enums;
 
 enum ReturnsType: string
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Channable\Api;
+namespace OnlineIdentity\Channable\Api;
 
-use Channable\Enums\ChannelType;
+use OnlineIdentity\Channable\Enums\ChannelType;
 
 class Transporters extends Base
 {

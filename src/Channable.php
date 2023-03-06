@@ -1,12 +1,12 @@
 <?php
 
-namespace Channable;
+namespace OnlineIdentity\Channable;
 
-use Channable\Api\Order;
-use Channable\Api\Returns;
-use Channable\Api\Statistics;
-use Channable\Api\StockUpdates;
-use Channable\Api\Transporters;
+use OnlineIdentity\Channable\Api\Order;
+use OnlineIdentity\Channable\Api\Returns;
+use OnlineIdentity\Channable\Api\Statistics;
+use OnlineIdentity\Channable\Api\StockUpdates;
+use OnlineIdentity\Channable\Api\Transporters;
 
 class Channable {
 

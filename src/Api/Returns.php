@@ -1,8 +1,8 @@
 <?php
 
-namespace Channable\Api;
+namespace OnlineIdentity\Channable\Api;
 
-use Channable\Enums\ReturnsType;
+use OnlineIdentity\Channable\Enums\ReturnsType;
 
 class Returns extends Base
 {

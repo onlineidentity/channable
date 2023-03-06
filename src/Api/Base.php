@@ -1,9 +1,9 @@
 <?php
 
-namespace Channable\Api;
+namespace OnlineIdentity\Channable\Api;
 
-use Channable\ChannableConfig;
-use Channable\Exceptions\ChannableException;
+use OnlineIdentity\Channable\ChannableConfig;
+use OnlineIdentity\Channable\Exceptions\ChannableException;
 use GuzzleHttp\Client;
 
 abstract class Base

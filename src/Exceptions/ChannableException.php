@@ -1,6 +1,6 @@
 <?php
 
-namespace Channable\Exceptions;
+namespace OnlineIdentity\Channable\Exceptions;
 
 use Exception;
 
