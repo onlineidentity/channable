@@ -17,7 +17,8 @@ use GuzzleHttp\Exception\RequestException;
 |
 */
 
-function mockClient(Response|RequestException $response){
+function mockClient(Response|RequestException $response)
+{
     $mock = new MockHandler([
         $response
     ]);
