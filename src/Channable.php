@@ -43,5 +43,10 @@ class Channable {
     {
         $this->config->setProjectId($project_id);
     }
+
+    public function setConfig(ChannableConfig $config)
+    {
+        $this->config = $config;
+    }
 }
 
