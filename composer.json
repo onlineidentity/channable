@@ -23,5 +23,5 @@
       "OnlineIdentity\\Channable\\": "src/"
     }
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "stable"
 }
