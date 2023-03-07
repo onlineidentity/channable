@@ -8,7 +8,7 @@ class ChannableConfig
     public function __construct(
         protected readonly string $api_token,
         protected readonly int    $company_id,
-        protected readonly int    $project_id,
+        protected int             $project_id,
         protected readonly string $base_url = 'https://api.channable.com',
         protected readonly string $version = 'v1'
     )
@@ -34,5 +34,14 @@ class ChannableConfig
         return $this->api_token;
     }
 
+    public function setProjectId(int $project_id)
+    {
+        $this->project_id = $project_id;
+    }
+
+    public function getProjectId($project_id): int
+    {
+        return $this->project_id;
+    }
 
 }

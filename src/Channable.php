@@ -10,8 +10,6 @@ use OnlineIdentity\Channable\Api\Transporters;
 
 class Channable {
 
-
-
     public function __construct(private ChannableConfig $config)
     {
     }
@@ -39,6 +37,11 @@ class Channable {
     public function statistics(): Statistics
     {
         return new Statistics($this->config);
+    }
+
+    public function setProjectId(int $project_id)
+    {
+        $this->config->setProjectId($project_id);
     }
 }
 
